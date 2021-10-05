@@ -127,6 +127,11 @@
 
 .remem {
   display: flex;
+  align-items: center;
+}
+
+.cbox{
+    background-color: #3521b5;
 }
 
 .rem {
