@@ -33,7 +33,7 @@
   padding-top: 5vh;
 }
 .loginform {
-  width: 30vw;
+  width: 80%;
 }
 
 .ltagline {
@@ -66,11 +66,11 @@
 .lines {
   display: flex;
   align-items: center;
-  width: 80%;
+  width:70%;
   color: #9e9e9e;
   font-weight: 600;
   margin-top: 3vh;
-  justify-content: space-around;
+  justify-content: center
 }
 
 .lines hr {
@@ -83,6 +83,7 @@
 
 .lines p {
   font-size: 0.8rem;
+  margin: 0rem 1rem;
 }
 
 .email {
@@ -104,9 +105,9 @@
   border: solid;
   border-color: #c2c2c2;
   border-width: 1px;
-  width: 70%;
+  width: 65%;
   border-radius: 25px;
-  padding: 0.75rem;
+  padding: 0.6rem;
   margin-top: 1vh;
 }
 
@@ -119,7 +120,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 78%;
+  width: 68%;
   margin-top: 2vh;
 }
 
@@ -149,9 +150,9 @@
   background: #5138ed;
   color: white;
   border: none;
-  width: 50%;
+  width: 55%;
   height: 6vh;
-  margin-top: 2vh;
+  margin-top: 4vh;
   border-radius: 15px;
   font-size: 0.95rem;
   font-weight: 600;
