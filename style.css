@@ -188,8 +188,6 @@
 .five {
   bottom: 0;
   right: 0;
-  position: absolute;
-  background: #3521b5;
 }
 
 .six {
@@ -217,4 +215,29 @@
 .one {
   min-width: 7%;
   min-height: 42vh;
+}
+
+.tone,
+.ttwo,
+.tthree {
+  top: 0;
+  left: 0;
+  position: absolute;
+
+  background-color: #3521b5;
+}
+
+.tone {
+  min-width: 21%;
+  min-height: 7vh;
+}
+
+.ttwo {
+  min-width: 14%;
+  min-height: 14vh;
+}
+
+.tthree {
+  min-width: 7%;
+  min-height: 21vh;
 }
