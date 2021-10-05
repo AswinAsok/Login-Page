@@ -168,3 +168,53 @@
   color: #5138ed;
   margin-left: 1vw;
 }
+
+.secondside {
+  position: relative;
+}
+
+.six,
+.five,
+.four,
+.three,
+.two,
+.one {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background: #3521b5;
+}
+
+.five {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background: #3521b5;
+}
+
+.six {
+  min-width: 42%;
+  min-height: 7vh;
+}
+
+.five {
+  min-width: 35%;
+  min-height: 14vh;
+}
+
+.four {
+  min-width: 28%;
+  min-height: 21vh;
+}
+.three {
+  min-width: 21%;
+  min-height: 28vh;
+}
+.two {
+  min-width: 14%;
+  min-height: 35vh;
+}
+.one {
+  min-width: 7%;
+  min-height: 42vh;
+}
