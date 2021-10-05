@@ -57,8 +57,114 @@
   margin-right: 1rem;
 }
 
-.btn p{
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: #373636;
+.btn p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #373636;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  color: #9e9e9e;
+  font-weight: 600;
+  margin-top: 3vh;
+  justify-content: space-around;
+}
+
+.lines hr {
+  height: 0;
+  width: 5rem;
+  border: none;
+  height: 1px;
+  background-color: #c2c2c2;
+}
+
+.lines p {
+  font-size: 0.8rem;
+}
+
+.email {
+  margin-top: 2vh;
+}
+
+.email p {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.email span {
+  color: #5138ed;
+}
+
+.input {
+  text-align: left;
+  padding-left: 10px;
+  border: solid;
+  border-color: #c2c2c2;
+  border-width: 1px;
+  width: 70%;
+  border-radius: 25px;
+  padding: 0.75rem;
+  margin-top: 1vh;
+}
+
+.input p {
+  font-weight: 600;
+  color: #9e9c9c;
+}
+
+.fp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 78%;
+  margin-top: 2vh;
+}
+
+.remem {
+  display: flex;
+}
+
+.rem {
+  font-size: 0.85rem;
+}
+
+.remem p {
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+.remem input {
+  background: #5138ed;
+}
+
+.forgot {
+  font-weight: 600;
+  color: #5138ed;
+  font-size: 0.85rem;
+}
+
+.login button {
+  background: #5138ed;
+  color: white;
+  border: none;
+  width: 50%;
+  height: 6vh;
+  margin-top: 2vh;
+  border-radius: 15px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.login p {
+  font-size: 0.85rem;
+  margin-top: 4vh;
+  font-weight: 600;
+  color: #9e9c9c;
+}
+
+.login span {
+  color: #5138ed;
+  margin-left: 1vw;
 }
